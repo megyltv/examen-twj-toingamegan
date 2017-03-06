@@ -30,12 +30,12 @@ if(false) {
 /***/ 509:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(62)();
+exports = module.exports = __webpack_require__(60)();
 // imports
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", ""]);
 
 // exports
 
@@ -303,7 +303,7 @@ module.exports = __webpack_require__(338);
 
 /***/ }),
 
-/***/ 62:
+/***/ 60:
 /***/ (function(module, exports) {
 
 /*

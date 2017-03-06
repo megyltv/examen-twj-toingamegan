@@ -18,7 +18,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var MasterURLService = (function () {
     function MasterURLService() {
-        this._url = "http://localhost:1337/";
+        //this._url="http://localhost:1337/";
+        this._url = "https://examen-twj-toingamegan-megtoinga.c9users.io/";
     }
     Object.defineProperty(MasterURLService.prototype, "url", {
         get: function () {
@@ -36,7 +37,7 @@ var MasterURLService = (function () {
     ], MasterURLService);
     return MasterURLService;
 }());
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/master-url.service.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/master-url.service.js.map
 
 /***/ }),
 
@@ -137,7 +138,7 @@ var GrupoComponent = (function () {
     return GrupoComponent;
     var _a, _b, _c;
 }());
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/grupo.component.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/grupo.component.js.map
 
 /***/ }),
 
@@ -172,7 +173,7 @@ var HomeComponent = (function () {
     ], HomeComponent);
     return HomeComponent;
 }());
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/home.component.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/home.component.js.map
 
 /***/ }),
 
@@ -269,7 +270,7 @@ var MateriaComponent = (function () {
     return MateriaComponent;
     var _a, _b;
 }());
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/materia.component.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/materia.component.js.map
 
 /***/ }),
 
@@ -304,7 +305,7 @@ if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/main.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/main.js.map
 
 /***/ }),
 
@@ -338,7 +339,7 @@ var AppComponent = (function () {
     ], AppComponent);
     return AppComponent;
 }());
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/app.component.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/app.component.js.map
 
 /***/ }),
 
@@ -402,7 +403,7 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/app.module.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/app.module.js.map
 
 /***/ }),
 
@@ -427,7 +428,7 @@ var routes = [
     { path: 'materia/:idMateria/grupo', component: __WEBPACK_IMPORTED_MODULE_3__grupo_grupo_component__["a" /* GrupoComponent */] },
 ];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(routes);
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/app.routes.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/app.routes.js.map
 
 /***/ }),
 
@@ -443,14 +444,14 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 var environment = {
     production: false
 };
-//# sourceMappingURL=D:/Megan/Universidad/8_Semestre/Tecnologias_Web_Js/Examen/Examen/src/environment.js.map
+//# sourceMappingURL=C:/Users/Megan/Documents/GitHub/examen-twj-toingamegan/Examen/Examen/src/environment.js.map
 
 /***/ }),
 
 /***/ 510:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(62)();
+exports = module.exports = __webpack_require__(60)();
 // imports
 
 
@@ -468,7 +469,7 @@ module.exports = module.exports.toString();
 /***/ 511:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(62)();
+exports = module.exports = __webpack_require__(60)();
 // imports
 
 
@@ -486,7 +487,7 @@ module.exports = module.exports.toString();
 /***/ 512:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(62)();
+exports = module.exports = __webpack_require__(60)();
 // imports
 
 
@@ -504,7 +505,7 @@ module.exports = module.exports.toString();
 /***/ 513:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(62)();
+exports = module.exports = __webpack_require__(60)();
 // imports
 
 
@@ -522,28 +523,28 @@ module.exports = module.exports.toString();
 /***/ 515:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default bg-info\">\r\n  <div class=\"container-fluid\">\r\n    <div class=\"navbar-header\">\r\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\r\n        <span>MENU</span>\r\n      </button>\r\n      <a class=\"navbar-brand\" [routerLink]=\"['/home']\">Materia-Grupo</a>\r\n    </div>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\r\n      <ul class=\"nav navbar-nav\">\r\n        <li><a [routerLink]=\"['/home']\">Home</a></li>\r\n        <li><a [routerLink]=\"['/materia']\">Materia</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "<nav class=\"navbar navbar-default bg-info\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span>MENU</span>\n      </button>\n      <a class=\"navbar-brand\" [routerLink]=\"['/home']\">Materia-Grupo</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav\">\n        <li><a [routerLink]=\"['/home']\">Home</a></li>\n        <li><a [routerLink]=\"['/materia']\">Materia</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
 /***/ 516:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Grupos</h1>\r\n<div class=\"container\">\r\n  <h2>{{title}}</h2>\r\n  <form class=\"animated flipInX\" (ngSubmit)=\"crearGrupo(NuevoGrupoForm)\" #NuevoGrupoForm=\"ngForm\">\r\n    <div class=\"form-group\">\r\n      <label>Nombre Grupo</label>\r\n      <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre del grupo\"\r\n             name=\"nombreGrupo\" [(ngModel)]=\"nuevoGrupo.nombreGrupo\" #nombreGrupo=\"ngModel\" #nombreElm>\r\n    </div>\r\n    <div class=\"form-group\">\r\n      <label>Numero Maximo de Estudiantes</label>\r\n      <input required type=\"number\" class=\"form-control\" placeholder=\"Ingrese numero maximos de estudiantes\"\r\n             name=\"numeroMaximoEstudiante\" [(ngModel)]=\"nuevoGrupo.numeroMaximoEstudiante\"\r\n             #numeroMaximoEstudiante=\"ngModel\" #nombreElm>\r\n    </div>\r\n    <button [disabled]=\"disabledButtons.NuevoGrupoFormSubmitButton||!NuevoGrupoForm.valid\" type=\"submit\" class=\"btn btn-success\">Crear Grupo </button>\r\n  </form>\r\n\r\n  <br><br><br>\r\n  <div class=\"container\" style=\"border-top: double #000000\">\r\n    <div class=\"row animated slideInUp\">\r\n      <h2>{{subtitle}}</h2>\r\n      <div class=\"col-sm-12\" *ngFor=\"let grupo of grupos\">\r\n\r\n        <div class=\"col-sm-12\">\r\n          <h3>{{grupo.nombreGrupo}}</h3>\r\n          <p>Numero Maximo de Estudiantes: {{grupo.numeroMaximoEstudiante}}</p>\r\n          <br>\r\n\r\n          <div class=\"row\" [hidden]=\"!grupo.formularioCerrado\">\r\n            <div class=\"col-sm-5\">\r\n              <button class=\"btn btn-info btn-block\" (click)=\"grupo.formularioCerrado=!grupo.formularioCerrado\">\r\n                Actualizar\r\n              </button>\r\n            </div>\r\n            <div class=\"col-sm-2\"></div>\r\n            <div class=\"col-sm-5\">\r\n              <button class=\"btn btn-danger btn-block\" (click)=\"borrarGrupo(grupo.id)\">Borrar</button>\r\n            </div>\r\n        </div>\r\n        <div class=\"row\" [hidden]=\"grupo.formularioCerrado\">\r\n          <form action=\"\">\r\n            <form (ngSubmit)=\"actualizarGrupo(grupo, grupo.id)\" #NuevaMateriaForm=\"ngForm\">\r\n              <div class=\"row\">\r\n                <br><br>\r\n                <div class=\"form-group col-sm-8\">\r\n                  <label>Nombre Grupo</label>\r\n                  <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre del grupo\"\r\n                         name=\"nombreGrupo\" [(ngModel)]=\"grupo.nombreGrupo\" #nombreGrupo=\"ngModel\" #nombreElm>\r\n\r\n                  <label>Numero Maximo de Estudiantes</label>\r\n                  <input required type=\"number\" class=\"form-control\" placeholder=\"Ingrese numero maximos de estudiantes\"\r\n                         name=\"numeroMaximoEstudiante\" [(ngModel)]=\"grupo.numeroMaximoEstudiante\"\r\n                         #numeroMaximoEstudiante=\"ngModel\" #nombreElm>\r\n                </div>\r\n                <div class=\"col-sm-6\">\r\n                  <button type=\"submit\" class=\"btn btn-success\">Actualizar Datos</button>\r\n                  <button type=\"button\" class=\"btn btn-warning\" (click)=\"grupo.formularioCerrado=!grupo.formularioCerrado\">\r\n                    Cancelar\r\n                  </button>\r\n                </div>\r\n              </div>\r\n            </form>\r\n          </form>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br><br>\r\n\r\n</div>\r\n\r\n"
+module.exports = "<h1>Grupos</h1>\n<div class=\"container\">\n  <h2>{{title}}</h2>\n  <form class=\"animated flipInX\" (ngSubmit)=\"crearGrupo(NuevoGrupoForm)\" #NuevoGrupoForm=\"ngForm\">\n    <div class=\"form-group\">\n      <label>Nombre Grupo</label>\n      <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre del grupo\"\n             name=\"nombreGrupo\" [(ngModel)]=\"nuevoGrupo.nombreGrupo\" #nombreGrupo=\"ngModel\" #nombreElm>\n    </div>\n    <div class=\"form-group\">\n      <label>Numero Maximo de Estudiantes</label>\n      <input required type=\"number\" class=\"form-control\" placeholder=\"Ingrese numero maximos de estudiantes\"\n             name=\"numeroMaximoEstudiante\" [(ngModel)]=\"nuevoGrupo.numeroMaximoEstudiante\"\n             #numeroMaximoEstudiante=\"ngModel\" #nombreElm>\n    </div>\n    <button [disabled]=\"disabledButtons.NuevoGrupoFormSubmitButton||!NuevoGrupoForm.valid\" type=\"submit\" class=\"btn btn-success\">Crear Grupo </button>\n  </form>\n\n  <br><br><br>\n  <div class=\"container\" style=\"border-top: double #000000\">\n    <div class=\"row animated slideInUp\">\n      <h2>{{subtitle}}</h2>\n      <div class=\"col-sm-12\" *ngFor=\"let grupo of grupos\">\n\n        <div class=\"col-sm-12\">\n          <h3>{{grupo.nombreGrupo}}</h3>\n          <p>Numero Maximo de Estudiantes: {{grupo.numeroMaximoEstudiante}}</p>\n          <br>\n\n          <div class=\"row\" [hidden]=\"!grupo.formularioCerrado\">\n            <div class=\"col-sm-5\">\n              <button class=\"btn btn-info btn-block\" (click)=\"grupo.formularioCerrado=!grupo.formularioCerrado\">\n                Actualizar\n              </button>\n            </div>\n            <div class=\"col-sm-2\"></div>\n            <div class=\"col-sm-5\">\n              <button class=\"btn btn-danger btn-block\" (click)=\"borrarGrupo(grupo.id)\">Borrar</button>\n            </div>\n        </div>\n        <div class=\"row\" [hidden]=\"grupo.formularioCerrado\">\n          <form action=\"\">\n            <form (ngSubmit)=\"actualizarGrupo(grupo, grupo.id)\" #NuevaMateriaForm=\"ngForm\">\n              <div class=\"row\">\n                <br><br>\n                <div class=\"form-group col-sm-8\">\n                  <label>Nombre Grupo</label>\n                  <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre del grupo\"\n                         name=\"nombreGrupo\" [(ngModel)]=\"grupo.nombreGrupo\" #nombreGrupo=\"ngModel\" #nombreElm>\n\n                  <label>Numero Maximo de Estudiantes</label>\n                  <input required type=\"number\" class=\"form-control\" placeholder=\"Ingrese numero maximos de estudiantes\"\n                         name=\"numeroMaximoEstudiante\" [(ngModel)]=\"grupo.numeroMaximoEstudiante\"\n                         #numeroMaximoEstudiante=\"ngModel\" #nombreElm>\n                </div>\n                <div class=\"col-sm-6\">\n                  <button type=\"submit\" class=\"btn btn-success\">Actualizar Datos</button>\n                  <button type=\"button\" class=\"btn btn-warning\" (click)=\"grupo.formularioCerrado=!grupo.formularioCerrado\">\n                    Cancelar\n                  </button>\n                </div>\n              </div>\n            </form>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n  <br><br>\n\n</div>\n\n"
 
 /***/ }),
 
 /***/ 517:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n  <h1>Bienvenidos</h1>\r\n  <div class=\"jumbotron\">\r\n    <h1>Materia-Grupo!</h1>\r\n    <p>Consulta o Registra Materias</p>\r\n    <p><a class=\"btn btn-primary btn-lg\" [routerLink]=\"['/materia']\" role=\"button\">Materias</a></p>\r\n  </div>\r\n\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"container\">\n  <h1>Bienvenidos</h1>\n  <div class=\"jumbotron\">\n    <h1>Materia-Grupo!</h1>\n    <p>Consulta o Registra Materias</p>\n    <p><a class=\"btn btn-primary btn-lg\" [routerLink]=\"['/materia']\" role=\"button\">Materias</a></p>\n  </div>\n\n</div>\n\n"
 
 /***/ }),
 
 /***/ 518:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Materias</h1>\r\n<div class=\"container\">\r\n  <h2>{{title}}</h2>\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-8\">\r\n      <form class=\"animated flipInX\" (ngSubmit)=\"crearMateria(NuevaMateriaForm)\" #NuevaMateriaForm=\"ngForm\">\r\n        <div class=\"form-group\">\r\n          <label>Nombre Materia</label>\r\n          <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre de la materia\"\r\n                 name=\"nombreMateria\" [(ngModel)]=\"nuevaMateria.nombreMateria\" #nombreMateria=\"ngModel\" #nombreElm>\r\n        </div>\r\n        <div class=\"form-group\">\r\n          <label>Topico Materia</label>\r\n          <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese topico de la materia\"\r\n                 name=\"topicoMateria\" [(ngModel)]=\"nuevaMateria.topicoMateria\" #topicoMateria=\"ngModel\" #nombreElm>\r\n        </div>\r\n        <div class=\"form-group\">\r\n          <label>Fecha de Creacion</label>\r\n          <input required type=\"date\" class=\"form-control\" placeholder=\"Ingrese fecha de creacion\" name=\"fechaCreacion\"\r\n                 [(ngModel)]=\"nuevaMateria.fechaCreacion\" #fechaCreacion=\"ngModel\" #nombreElm>\r\n        </div>\r\n        <button [disabled]=\"disabledButtons.NuevaMateriaFormSubmitButton||!NuevaMateriaForm.valid\" type=\"submit\"\r\n                class=\"btn btn-success\">Crear Materia\r\n        </button>\r\n\r\n      </form>\r\n    </div>\r\n    <div class=\"col-sm-6\"><h1>{{nuevaMateria.nombreMateria}}</h1>\r\n    </div>\r\n    </div>\r\n  </div>\r\n<br><br><br>\r\n<div class=\"container\" style=\"border-top: double #000000\">\r\n  <div class=\"row animated slideInUp\">\r\n    <h2>{{subtitle}}</h2>\r\n      <div class=\"col-sm-12\" *ngFor=\"let materia of materias\">\r\n        <br>\r\n        <!--<pre>-->\r\n        <!--{{materia|json}}-->\r\n        <!--</pre>-->\r\n        <div class=\"col-sm-6\">\r\n          <h3>{{materia.nombreMateria}}</h3>\r\n        </div>\r\n        <div class=\"col-sm-6\">\r\n          <p>{{materia.topicoMateria}}</p>\r\n          <p>{{materia.fechaCreacion | date:'dd-MM-yyyy'}}</p>\r\n          <a [routerLink]=\"[materia.id,'grupo']\">Ir a Grupos</a>\r\n          <br><br>\r\n        </div>\r\n        <br><br>\r\n        <div class=\"row\" [hidden]=\"!materia.formularioCerrado\">\r\n          <div class=\"col-sm-5\">\r\n            <button class=\"btn btn-block btn-info\" (click)=\"materia.formularioCerrado=!materia.formularioCerrado\">\r\n              Actualizar\r\n            </button>\r\n          </div>\r\n          <div class=\"col-sm-2\"></div>\r\n          <div class=\"col-sm-5\">\r\n            <button class=\"btn btn-block btn-danger\" (click)=\"borrarMateria(materia.id)\">Borrar</button>\r\n          </div>\r\n\r\n        </div>\r\n        <div class=\"div\" [hidden]=\"materia.formularioCerrado\">\r\n          <form action=\"\">\r\n            <form (ngSubmit)=\"actualizarMateria(materia)\" #NuevaMateriaForm=\"ngForm\">\r\n              <div class=\"form-group\">\r\n                <div class=\"form-group\">\r\n                  <label>Nombre Materia</label>\r\n                  <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre de la materia\"\r\n                         name=\"nombreMateria\" [(ngModel)]=\"materia.nombreMateria\" #nombreMateria=\"ngModel\"\r\n                         #nombreElm>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                  <label>Topico Materia</label>\r\n                  <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese topico de la materia\"\r\n                         name=\"topicoMateria\" [(ngModel)]=\"materia.topicoMateria\" #topicoMateria=\"ngModel\"\r\n                         #nombreElm>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                  <label>Fecha de Creacion</label>\r\n                  <input required type=\"date\" class=\"form-control\" placeholder=\"Ingrese fecha de creacion\"\r\n                         name=\"fechaCreacion\" [(ngModel)]=\"materia.fechaCreacion\" #fechaCreacion=\"ngModel\"\r\n                         #nombreElm>\r\n                </div>\r\n                <div class=\"col-sm-7\">\r\n                  <button [disabled]=\"disabledButtons.NuevaMateriaFormSubmitButton||!NuevaMateriaForm.valid\" type=\"submit\"\r\n                          class=\"btn btn-block btn-success\">Actualizar Datos\r\n                  </button>\r\n                </div>\r\n                <div class=\"col-sm-5\">\r\n                  <button type=\"button\" class=\"btn btn-block btn-warning\" (click)=\"materia.formularioCerrado=!materia.formularioCerrado\">\r\n                    Cancelar\r\n                  </button>\r\n                </div>\r\n              </div>\r\n            </form>\r\n          </form>\r\n\r\n        </div>\r\n      </div>\r\n  </div>\r\n</div>\r\n<br><br>\r\n\r\n"
+module.exports = "<h1>Materias</h1>\n<div class=\"container\">\n  <h2>{{title}}</h2>\n  <div class=\"row\">\n    <div class=\"col-sm-8\">\n      <form class=\"animated flipInX\" (ngSubmit)=\"crearMateria(NuevaMateriaForm)\" #NuevaMateriaForm=\"ngForm\">\n        <div class=\"form-group\">\n          <label>Nombre Materia</label>\n          <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre de la materia\"\n                 name=\"nombreMateria\" [(ngModel)]=\"nuevaMateria.nombreMateria\" #nombreMateria=\"ngModel\" #nombreElm>\n        </div>\n        <div class=\"form-group\">\n          <label>Topico Materia</label>\n          <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese topico de la materia\"\n                 name=\"topicoMateria\" [(ngModel)]=\"nuevaMateria.topicoMateria\" #topicoMateria=\"ngModel\" #nombreElm>\n        </div>\n        <div class=\"form-group\">\n          <label>Fecha de Creacion</label>\n          <input required type=\"date\" class=\"form-control\" placeholder=\"Ingrese fecha de creacion\" name=\"fechaCreacion\"\n                 [(ngModel)]=\"nuevaMateria.fechaCreacion\" #fechaCreacion=\"ngModel\" #nombreElm>\n        </div>\n        <button [disabled]=\"disabledButtons.NuevaMateriaFormSubmitButton||!NuevaMateriaForm.valid\" type=\"submit\"\n                class=\"btn btn-success\">Crear Materia\n        </button>\n\n      </form>\n    </div>\n    <div class=\"col-sm-6\"><h1>{{nuevaMateria.nombreMateria}}</h1>\n    </div>\n    </div>\n  </div>\n<br><br><br>\n<div class=\"container\" style=\"border-top: double #000000\">\n  <div class=\"row animated slideInUp\">\n    <h2>{{subtitle}}</h2>\n      <div class=\"col-sm-12\" *ngFor=\"let materia of materias\">\n        <br>\n        <!--<pre>-->\n        <!--{{materia|json}}-->\n        <!--</pre>-->\n        <div class=\"col-sm-6\">\n          <h3>{{materia.nombreMateria}}</h3>\n        </div>\n        <div class=\"col-sm-6\">\n          <p>{{materia.topicoMateria}}</p>\n          <p>{{materia.fechaCreacion | date:'dd-MM-yyyy'}}</p>\n          <a [routerLink]=\"[materia.id,'grupo']\">Ir a Grupos</a>\n          <br><br>\n        </div>\n        <br><br>\n        <div class=\"row\" [hidden]=\"!materia.formularioCerrado\">\n          <div class=\"col-sm-5\">\n            <button class=\"btn btn-block btn-info\" (click)=\"materia.formularioCerrado=!materia.formularioCerrado\">\n              Actualizar\n            </button>\n          </div>\n          <div class=\"col-sm-2\"></div>\n          <div class=\"col-sm-5\">\n            <button class=\"btn btn-block btn-danger\" (click)=\"borrarMateria(materia.id)\">Borrar</button>\n          </div>\n\n        </div>\n        <div class=\"div\" [hidden]=\"materia.formularioCerrado\">\n          <form action=\"\">\n            <form (ngSubmit)=\"actualizarMateria(materia)\" #NuevaMateriaForm=\"ngForm\">\n              <div class=\"form-group\">\n                <div class=\"form-group\">\n                  <label>Nombre Materia</label>\n                  <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese nombre de la materia\"\n                         name=\"nombreMateria\" [(ngModel)]=\"materia.nombreMateria\" #nombreMateria=\"ngModel\"\n                         #nombreElm>\n                </div>\n                <div class=\"form-group\">\n                  <label>Topico Materia</label>\n                  <input required type=\"text\" class=\"form-control\" placeholder=\"Ingrese topico de la materia\"\n                         name=\"topicoMateria\" [(ngModel)]=\"materia.topicoMateria\" #topicoMateria=\"ngModel\"\n                         #nombreElm>\n                </div>\n                <div class=\"form-group\">\n                  <label>Fecha de Creacion</label>\n                  <input required type=\"date\" class=\"form-control\" placeholder=\"Ingrese fecha de creacion\"\n                         name=\"fechaCreacion\" [(ngModel)]=\"materia.fechaCreacion\" #fechaCreacion=\"ngModel\"\n                         #nombreElm>\n                </div>\n                <div class=\"col-sm-7\">\n                  <button [disabled]=\"disabledButtons.NuevaMateriaFormSubmitButton||!NuevaMateriaForm.valid\" type=\"submit\"\n                          class=\"btn btn-block btn-success\">Actualizar Datos\n                  </button>\n                </div>\n                <div class=\"col-sm-5\">\n                  <button type=\"button\" class=\"btn btn-block btn-warning\" (click)=\"materia.formularioCerrado=!materia.formularioCerrado\">\n                    Cancelar\n                  </button>\n                </div>\n              </div>\n            </form>\n          </form>\n\n        </div>\n      </div>\n  </div>\n</div>\n<br><br>\n\n"
 
 /***/ }),
 
