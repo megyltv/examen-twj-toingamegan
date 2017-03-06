@@ -1,0 +1,104 @@
+<h1>Materias</h1>
+<div class="container">
+  <h2>{{title}}</h2>
+  <div class="row">
+    <div class="col-sm-8">
+      <form class="animated flipInX" (ngSubmit)="crearMateria(NuevaMateriaForm)" #NuevaMateriaForm="ngForm">
+        <div class="form-group">
+          <label>Nombre Materia</label>
+          <input required type="text" class="form-control" placeholder="Ingrese nombre de la materia"
+                 name="nombreMateria" [(ngModel)]="nuevaMateria.nombreMateria" #nombreMateria="ngModel" #nombreElm>
+        </div>
+        <div class="form-group">
+          <label>Topico Materia</label>
+          <input required type="text" class="form-control" placeholder="Ingrese topico de la materia"
+                 name="topicoMateria" [(ngModel)]="nuevaMateria.topicoMateria" #topicoMateria="ngModel" #nombreElm>
+        </div>
+        <div class="form-group">
+          <label>Fecha de Creacion</label>
+          <input required type="date" class="form-control" placeholder="Ingrese fecha de creacion" name="fechaCreacion"
+                 [(ngModel)]="nuevaMateria.fechaCreacion" #fechaCreacion="ngModel" #nombreElm>
+        </div>
+        <button [disabled]="disabledButtons.NuevaMateriaFormSubmitButton||!NuevaMateriaForm.valid" type="submit"
+                class="btn btn-success">Crear Materia
+        </button>
+
+      </form>
+    </div>
+    <div class="col-sm-6"><h1>{{nuevaMateria.nombreMateria}}</h1>
+    </div>
+    </div>
+  </div>
+<br><br><br>
+<div class="container" style="border-top: double #000000">
+  <div class="row animated slideInUp">
+    <h2>{{subtitle}}</h2>
+      <div class="col-sm-12" *ngFor="let materia of materias">
+        <br>
+        <!--<pre>-->
+        <!--{{materia|json}}-->
+        <!--</pre>-->
+        <div class="col-sm-6">
+          <h3>{{materia.nombreMateria}}</h3>
+        </div>
+        <div class="col-sm-6">
+          <p>{{materia.topicoMateria}}</p>
+          <p>{{materia.fechaCreacion | date:'dd-MM-yyyy'}}</p>
+          <a [routerLink]="[materia.id,'grupo']">Ir a Grupos</a>
+          <br><br>
+        </div>
+        <br><br>
+        <div class="row" [hidden]="!materia.formularioCerrado">
+          <div class="col-sm-5">
+            <button class="btn btn-block btn-info" (click)="materia.formularioCerrado=!materia.formularioCerrado">
+              Actualizar
+            </button>
+          </div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-5">
+            <button class="btn btn-block btn-danger" (click)="borrarMateria(materia.id)">Borrar</button>
+          </div>
+
+        </div>
+        <div class="div" [hidden]="materia.formularioCerrado">
+          <form action="">
+            <form (ngSubmit)="actualizarMateria(materia)" #NuevaMateriaForm="ngForm">
+              <div class="form-group">
+                <div class="form-group">
+                  <label>Nombre Materia</label>
+                  <input required type="text" class="form-control" placeholder="Ingrese nombre de la materia"
+                         name="nombreMateria" [(ngModel)]="materia.nombreMateria" #nombreMateria="ngModel"
+                         #nombreElm>
+                </div>
+                <div class="form-group">
+                  <label>Topico Materia</label>
+                  <input required type="text" class="form-control" placeholder="Ingrese topico de la materia"
+                         name="topicoMateria" [(ngModel)]="materia.topicoMateria" #topicoMateria="ngModel"
+                         #nombreElm>
+                </div>
+                <div class="form-group">
+                  <label>Fecha de Creacion</label>
+                  <input required type="date" class="form-control" placeholder="Ingrese fecha de creacion"
+                         name="fechaCreacion" [(ngModel)]="materia.fechaCreacion" #fechaCreacion="ngModel"
+                         #nombreElm>
+                </div>
+                <div class="col-sm-7">
+                  <button [disabled]="disabledButtons.NuevaMateriaFormSubmitButton||!NuevaMateriaForm.valid" type="submit"
+                          class="btn btn-block btn-success">Actualizar Datos
+                  </button>
+                </div>
+                <div class="col-sm-5">
+                  <button type="button" class="btn btn-block btn-warning" (click)="materia.formularioCerrado=!materia.formularioCerrado">
+                    Cancelar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </form>
+
+        </div>
+      </div>
+  </div>
+</div>
+<br><br>
+

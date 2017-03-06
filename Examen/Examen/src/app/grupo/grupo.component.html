@@ -1,0 +1,72 @@
+<h1>Grupos</h1>
+<div class="container">
+  <h2>{{title}}</h2>
+  <form class="animated flipInX" (ngSubmit)="crearGrupo(NuevoGrupoForm)" #NuevoGrupoForm="ngForm">
+    <div class="form-group">
+      <label>Nombre Grupo</label>
+      <input required type="text" class="form-control" placeholder="Ingrese nombre del grupo"
+             name="nombreGrupo" [(ngModel)]="nuevoGrupo.nombreGrupo" #nombreGrupo="ngModel" #nombreElm>
+    </div>
+    <div class="form-group">
+      <label>Numero Maximo de Estudiantes</label>
+      <input required type="number" class="form-control" placeholder="Ingrese numero maximos de estudiantes"
+             name="numeroMaximoEstudiante" [(ngModel)]="nuevoGrupo.numeroMaximoEstudiante"
+             #numeroMaximoEstudiante="ngModel" #nombreElm>
+    </div>
+    <button [disabled]="disabledButtons.NuevoGrupoFormSubmitButton||!NuevoGrupoForm.valid" type="submit" class="btn btn-success">Crear Grupo </button>
+  </form>
+
+  <br><br><br>
+  <div class="container" style="border-top: double #000000">
+    <div class="row animated slideInUp">
+      <h2>{{subtitle}}</h2>
+      <div class="col-sm-12" *ngFor="let grupo of grupos">
+
+        <div class="col-sm-12">
+          <h3>{{grupo.nombreGrupo}}</h3>
+          <p>Numero Maximo de Estudiantes: {{grupo.numeroMaximoEstudiante}}</p>
+          <br>
+
+          <div class="row" [hidden]="!grupo.formularioCerrado">
+            <div class="col-sm-5">
+              <button class="btn btn-info btn-block" (click)="grupo.formularioCerrado=!grupo.formularioCerrado">
+                Actualizar
+              </button>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5">
+              <button class="btn btn-danger btn-block" (click)="borrarGrupo(grupo.id)">Borrar</button>
+            </div>
+        </div>
+        <div class="row" [hidden]="grupo.formularioCerrado">
+          <form action="">
+            <form (ngSubmit)="actualizarGrupo(grupo, grupo.id)" #NuevaMateriaForm="ngForm">
+              <div class="row">
+                <br><br>
+                <div class="form-group col-sm-8">
+                  <label>Nombre Grupo</label>
+                  <input required type="text" class="form-control" placeholder="Ingrese nombre del grupo"
+                         name="nombreGrupo" [(ngModel)]="grupo.nombreGrupo" #nombreGrupo="ngModel" #nombreElm>
+
+                  <label>Numero Maximo de Estudiantes</label>
+                  <input required type="number" class="form-control" placeholder="Ingrese numero maximos de estudiantes"
+                         name="numeroMaximoEstudiante" [(ngModel)]="grupo.numeroMaximoEstudiante"
+                         #numeroMaximoEstudiante="ngModel" #nombreElm>
+                </div>
+                <div class="col-sm-6">
+                  <button type="submit" class="btn btn-success">Actualizar Datos</button>
+                  <button type="button" class="btn btn-warning" (click)="grupo.formularioCerrado=!grupo.formularioCerrado">
+                    Cancelar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+</div>
+
